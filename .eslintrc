@@ -1,0 +1,25 @@
+{
+  "parser": "babel-eslint",
+  "extends" : "airbnb",
+  "env"     : {
+    "mocha" : true,
+    "browser": true,
+    "node": true
+  },
+  "globals" : {
+    "expect" : false,
+    "should" : false,
+    "sinon"  : false,
+    "globals": false
+  },
+  "rules": {
+    "strict": 0,
+    "no-console": ["error", { "allow": ["info", "warn", "error"] }],
+    "max-len": ["error", 120],
+    "consistent-return": "off",
+    "camelcase": "off",
+    "object-curly-newline": "off",
+    "no-param-reassign": "off",
+    "import/no-named-as-default": 0
+  }
+}
